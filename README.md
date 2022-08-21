@@ -1,4 +1,4 @@
-##Allora.##
+## Allora.
 
 GitHub esige che venga messo un file readme.md per descrivere la repository.
 Solo che io non so cosa aggiungere.
