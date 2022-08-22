@@ -2,11 +2,6 @@
     font-size:xx-large;
     font-family: Verdana;
     font-weight: bolder;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
 }
 
 body{
@@ -29,6 +24,7 @@ button{
     color:antiquewhite;
     width: 400px;
     height: 500px;
+    border-radius: 40px 40px 0 0;
 }
 
 input{
@@ -38,14 +34,28 @@ input{
     background-color: dodgerblue;
     color:antiquewhite;
     text-align: center;
+    border-radius: 0 0 40px 40px;
 }
 
 button:hover{
     cursor: pointer;
-    background-color: rgb(180, 16, 49);;
+    background-color: rgb(180, 16, 49);
     color: white;
 }
 
 button:active{
     background-color: rgb(152, 16, 44);
+}
+
+input, body {
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+::placeholder {
+    color:rgba(250, 235, 215, 0.7);
+    font-size: large;
 }
