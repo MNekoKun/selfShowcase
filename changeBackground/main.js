@@ -1,5 +1,5 @@
 function changeColor(){
-    let colors = ['tan', 'brown', 'darkolivegreen', 'plum', 'teal'];
+    let colors = ['#712B75', '#C74B50', '#D49B54', '#346751', '#292929'];
     let color = Math.floor(Math.random()*colors.length);
     
     while (color===last){
@@ -10,5 +10,5 @@ function changeColor(){
     last=color;
 }
 
-let last = '';
+let last = '#292929';
 document.getElementsByTagName('button')[0].onclick=changeColor;
