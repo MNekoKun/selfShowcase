@@ -28,9 +28,9 @@ button{
 }
 
 input{
-    width: 393px;
+    width: 392px;
     height: 100px;
-    border: 2px solid white;
+    border: 2px solid antiquewhite;
     background-color: dodgerblue;
     color:antiquewhite;
     text-align: center;
