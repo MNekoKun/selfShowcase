@@ -18,3 +18,10 @@ main {
         color: white;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: whitesmoke;
+        color: black;
+    }
+}
