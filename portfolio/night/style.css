@@ -326,3 +326,50 @@ footer a::after{
     }
     /* -Footer- */
 }
+
+@media (prefers-color-scheme: dark) {
+    #banner, #slide-2 {
+        background-color: #28292A;
+    }
+
+    h1, h2, h3, h4 {
+        color: #DCDCDD;
+    }
+
+    #slide-1 {
+        background-color: #880B06;
+    }
+
+    .red-text {
+        color:#880B06;
+    }
+
+    #i-submit {
+        background-color:#880B06;
+    }
+
+    header {
+        background-color: #151415;
+    }
+
+    footer {
+        background-color:#13677C;
+    }
+
+    #name {
+        color: #13677C;
+    }
+
+    a:after {
+        background-color: #13677C;
+    }
+
+    footer a:after {
+        background-color: #880B06;
+    }
+
+    nav ul li a {
+        color: #DCDCDD;
+        font-weight: bold;
+    }
+}
