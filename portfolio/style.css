@@ -1,0 +1,286 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 2px;
+}
+
+a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #1985A1;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+}
+  
+a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+body {
+    background-color: #DCDCDD;
+}
+
+main {
+    font-size: large;
+}
+
+/* Header */
+
+header {
+    background-color: #C5C3C6;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 7%;
+    font-size: large;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: sticky;
+}
+
+header img {
+    height: 45px;
+    width: 45px;
+}
+
+ #name {
+    text-transform: uppercase;
+    color: #1985A1;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 0 30px;
+}
+
+nav li {
+    text-transform: uppercase;
+    font-size: large;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+nav ul li a {
+    color: #46494C;
+    font-weight: bold;
+}
+
+
+/* -Header- */
+
+/* Banner */
+
+
+#banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: #DCDCDD;
+    margin: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#banner img {
+    width: 270px;
+    height: 270px;
+}
+
+#banner-title {
+    width: 30%;
+}
+
+#banner-title h3, h1 {
+    margin-top: 0;
+}
+
+
+/* -Banner- */
+
+/* Slide 1 */
+
+
+#slide-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: #F64740;
+    margin: 0;
+    color: white;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#slide-1 img {
+    width: 300px;
+    height: 300px;
+}
+
+#slide-1-title {
+    width: 30%;
+}
+
+#slide-1-title h2, h4 {
+    margin-top: 0;
+}
+
+
+/* -Slide 1- */
+
+/* Slide 2 */
+
+
+#slide-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#slide-2 img {
+    width: 270px;
+    height: 270px;
+}
+
+#slide-2-title {
+    width: 30%;
+}
+
+#slide-2-title h2, h4 {
+    margin-top: 0;
+}
+
+
+/* -Slide 1- */
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1985A1;
+}
+
+footer h4 {
+    color: #DCDCDD;
+    margin: auto 10%;
+}
+
+#contact-the-cat {
+    height: 60;
+    margin: 20px auto;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#i-name, #i-message, #i-submit {
+    width: 100%;
+    margin: 3px auto;
+    border: 0;
+    border-radius: 6px;
+}
+
+#i-submit {
+    background-color: #F64740;
+    color: white;
+}
+
+#i-submit:hover {
+    cursor: pointer;
+}
+
+
+footer ul {
+    list-style: none;
+    text-transform: capitalize;
+    margin: auto 10%;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 2px;
+    color: #DCDCDD;
+    margin: 10px auto;
+}
+
+footer a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color:#F64740;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+}
+  
+footer a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* -Footer- */
+
+/* Mobile */
+
+@media (max-width: 480px){
+    h1 {
+        border: 1px solid #1985A1;
+    }
+
+    #name, nav {
+        display: none;
+    }
+
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #banner {
+        wrap: wrap;
+    }
+
+    #banner-title{
+        display: block;
+        text-align: center;
+    }
+
+    footer {
+        wrap: wrap;
+    }
+}
