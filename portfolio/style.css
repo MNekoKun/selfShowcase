@@ -28,6 +28,7 @@ a:hover:after {
 
 body {
     background-color: #DCDCDD;
+    margin: 0;
 }
 
 main {
@@ -48,7 +49,7 @@ header {
     right: 0;
     bottom: 0;
     left: 0;
-    width: 100%;
+    height: 65px;
     position: sticky;
 }
 
@@ -186,6 +187,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     background-color: #1985A1;
+    margin: 0;
 }
 
 footer h4 {
@@ -232,7 +234,8 @@ footer a {
     position: relative;
     padding-bottom: 2px;
     color: #DCDCDD;
-    margin: 10px auto;
+    font-size: large;
+    font-weight: bold;
 }
 
 footer a:after {
@@ -258,29 +261,69 @@ footer a:hover:after {
 /* Mobile */
 
 @media (max-width: 480px){
-    h1 {
-        border: 1px solid #1985A1;
-    }
-
+    /* Header*/
     #name, nav {
         display: none;
     }
-
     header {
         justify-content: center;
         align-items: center;
     }
-
-    #banner {
-        wrap: wrap;
+    /* -Header- */
+    /* Slides */
+    #banner, #slide-1, #slide-2 {
+        height: auto;
+        flex-direction: column;
     }
-
-    #banner-title{
+    #banner-title, #slide-2-title {
         display: block;
         text-align: center;
+        width: auto;
+        margin: 27px 16px;
+        margin-bottom: 10px;
+    }
+    #banner-title h3, #slide-2-title h4 {
+        font-weight: normal;
+    }
+    #banner img, #slide-2 img {
+        margin: auto auto 30px auto;
+        height: 35%;
+        width: 35%;
     }
 
+    #slide-1-title {
+        display: block;
+        text-align: center;
+        width: auto;
+        margin: auto 16px 30px 16px;
+    }
+    #slide-1 img {
+        height: 45%;
+        width: 45%;
+        margin: 27px auto;
+        margin-bottom: 10px;
+    }
+    /* -Slides- */
+    /* Footer */
     footer {
-        wrap: wrap;
+        flex-direction: column;
+    }
+    footer h4 {
+        margin: 5% auto;
+    }
+    #contact-the-cat {
+        width: 70%;
+        margin-top: 0px;
+    }
+    #contatti{
+        text-align: center;
+        width: 20%;
+        position: relative;
+        right: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8%;
     }
 }
