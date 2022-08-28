@@ -332,5 +332,14 @@ footer ul li {
         align-items: center;
         margin-bottom: 8%;
     }
+
+    footer ul li { 
+         margin:0 0 20% 0; 
+      } 
+  
+     footer ul { 
+         margin: 4.5% 0 0 0; 
+     }
+
     /* -Footer- */
 }
