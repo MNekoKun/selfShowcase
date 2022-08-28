@@ -202,6 +202,7 @@ footer {
     align-items: center;
     background-color: #1985A1;
     margin: 0;
+    border-bottom: 7px solid #F64740;
 }
 
 footer h4 {
@@ -221,7 +222,7 @@ footer h4 {
 
 #i-name, #i-message, #i-submit {
     width: 100%;
-    margin: 3px auto;
+    margin: 1.2% auto;
     border: 0;
     border-radius: 6px;
 }
@@ -238,7 +239,7 @@ footer h4 {
 
 footer ul {
     list-style: none;
-    margin: auto 10%;
+    margin: 0.7% 10%;
     text-align: center;
 }
 
@@ -255,6 +256,9 @@ footer a::after{
     background-color:#F64740;
 }
 
+footer ul li {
+    margin:0 0 4% 0;
+ }
 
 /* -Footer- */
 
@@ -326,5 +330,14 @@ footer a::after{
         align-items: center;
         margin-bottom: 8%;
     }
+
+    footer ul li {
+        margin:0 0 20% 0;
+     }
+
+    footer ul {
+        margin: 4.5% 0 0 0;
+    }
+
     /* -Footer- */
 }

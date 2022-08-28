@@ -42,6 +42,9 @@ main {
     color:#880B06;
 }
 
+h1, h2, h3, h4 {
+    color: #DCDCDD;
+}
 
 /* -General- */
 
@@ -197,8 +200,9 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #13677C;
+    background-color: #1985A1;
     margin: 0;
+    border-bottom: 7px solid #880B06;
 }
 
 footer h4 {
@@ -218,7 +222,7 @@ footer h4 {
 
 #i-name, #i-message, #i-submit {
     width: 100%;
-    margin: 3px auto;
+    margin: 1.2% auto;
     border: 0;
     border-radius: 6px;
 }
@@ -235,7 +239,7 @@ footer h4 {
 
 footer ul {
     list-style: none;
-    margin: auto 10%;
+    margin: 0.7% 10%;
     text-align: center;
 }
 
@@ -249,8 +253,13 @@ footer a {
 }
 
 footer a::after{
-    background-color:#880B06;
+    background-color:#F64740;
 }
+
+footer ul li {
+    margin:0 0 4% 0;
+    color: #DCDCDD;
+ }
 
 
 /* -Footer- */
@@ -324,43 +333,4 @@ footer a::after{
         margin-bottom: 8%;
     }
     /* -Footer- */
-}
-
-
-h1, h2, h3, h4 {
-    color: #DCDCDD;
-}
-/*
-#slide-1 {
-    background-color: #880B06;
-}
-
-.red-text {
-    color:#880B06;
-}
-
-#i-submit {
-    background-color:#880B06;
-}*/
-
-
-/*footer {
-    background-color:#13677C;
-}
-
-#name {
-    color: #13677C;
-}
-
-a:after {
-    background-color: #13677C;
-}
-
-footer a:after {
-    background-color: #880B06;
-}*/
-
-nav ul li a {
-    color: #DCDCDD;
-    font-weight: bold;
 }
