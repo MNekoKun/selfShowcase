@@ -19,7 +19,7 @@ a:after {
     height: 3px;
     bottom: 0;
     left: 0;
-    background-color: #1985A1;
+    background-color: #13677C;
     transform-origin: bottom right;
     transition: transform 0.35s ease-out;
 }
@@ -39,7 +39,7 @@ main {
 }
 
 .red-text {
-    color:#F64740;
+    color:#880B06;
 }
 
 
@@ -48,7 +48,7 @@ main {
 /* Header */
 
 header {
-    background-color: #C5C3C6;
+    background-color: #151415;
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -70,7 +70,7 @@ header img {
 
  #name {
     text-transform: uppercase;
-    color: #1985A1;
+    color: #13677C;
     font-size: larger;
     font-weight: bolder;
     margin: 0 30px;
@@ -84,7 +84,7 @@ nav li {
 }
 
 nav ul li a {
-    color: #46494C;
+    color: #DCDCDD;
     font-weight: bold;
 }
 
@@ -100,7 +100,7 @@ nav ul li a {
     align-items: center;
     width: 100%;
     height: 600px;
-    background-color: #DCDCDD;
+    background-color: #28292A;
     margin: 0;
     top: 0;
     right: 0;
@@ -133,7 +133,7 @@ nav ul li a {
     align-items: center;
     width: 100%;
     height: 600px;
-    background-color: #F64740;
+    background-color: #880B06;
     margin: 0;
     color: white;
     top: 0;
@@ -167,7 +167,7 @@ nav ul li a {
     align-items: center;
     width: 100%;
     height: 600px;
-    background-color: #DCDCDD;
+    background-color: #28292A;
     margin: 0;
     top: 0;
     right: 0;
@@ -197,7 +197,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1985A1;
+    background-color: #13677C;
     margin: 0;
 }
 
@@ -224,7 +224,7 @@ footer h4 {
 }
 
 #i-submit {
-    background-color: #F64740;
+    background-color: #880B06;
     color: white;
 }
 
@@ -235,7 +235,6 @@ footer h4 {
 
 footer ul {
     list-style: none;
-    text-transform: capitalize;
     margin: auto 10%;
     text-align: center;
 }
@@ -250,7 +249,7 @@ footer a {
 }
 
 footer a::after{
-    background-color:#F64740;
+    background-color:#880B06;
 }
 
 
@@ -327,49 +326,41 @@ footer a::after{
     /* -Footer- */
 }
 
-@media (prefers-color-scheme: dark) {
-    #banner, #slide-2 {
-        background-color: #28292A;
-    }
 
-    h1, h2, h3, h4 {
-        color: #DCDCDD;
-    }
+h1, h2, h3, h4 {
+    color: #DCDCDD;
+}
+/*
+#slide-1 {
+    background-color: #880B06;
+}
 
-    #slide-1 {
-        background-color: #880B06;
-    }
+.red-text {
+    color:#880B06;
+}
 
-    .red-text {
-        color:#880B06;
-    }
+#i-submit {
+    background-color:#880B06;
+}*/
 
-    #i-submit {
-        background-color:#880B06;
-    }
 
-    header {
-        background-color: #151415;
-    }
+/*footer {
+    background-color:#13677C;
+}
 
-    footer {
-        background-color:#13677C;
-    }
+#name {
+    color: #13677C;
+}
 
-    #name {
-        color: #13677C;
-    }
+a:after {
+    background-color: #13677C;
+}
 
-    a:after {
-        background-color: #13677C;
-    }
+footer a:after {
+    background-color: #880B06;
+}*/
 
-    footer a:after {
-        background-color: #880B06;
-    }
-
-    nav ul li a {
-        color: #DCDCDD;
-        font-weight: bold;
-    }
+nav ul li a {
+    color: #DCDCDD;
+    font-weight: bold;
 }
